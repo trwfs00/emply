@@ -172,6 +172,15 @@
                 android:textStyle="bold"
                 android:textColor="@color/font_dark"
                 android:layout_below="@id/recyclerCategory"/>
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RececntJobs"
+                tools:listitem="@layout/item_jobs"
+                android:scrollbars="none"
+                android:orientation="vertical"/>
+
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
