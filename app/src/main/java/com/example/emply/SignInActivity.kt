@@ -50,12 +50,12 @@ class SignInActivity : AppCompatActivity() {
                                 val role_back = response.body()?.userrole.toString()
                                 if (role_back == "0"){
                                     session.createLoginSession(role_back,id_back,username)
-                                    var i:Intent = Intent(applicationContext, MainActivity::class.java)
+                                    var i:Intent = Intent(applicationContext, HomeFragment::class.java)
                                     startActivity(i)
                                     finish()
                                 }else{
                                     session.createLoginSession(role_back,id_back,username)
-                                    var i:Intent = Intent(applicationContext, MainActivity::class.java)
+                                    var i:Intent = Intent(applicationContext, HomeFragment::class.java)
                                     startActivity(i)
                                     finish()
                                 }
