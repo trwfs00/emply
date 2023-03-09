@@ -172,6 +172,15 @@
                 android:textStyle="bold"
                 android:textColor="@color/font_dark"
                 android:layout_below="@id/recyclerCategory"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewRecentJob"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RececntJobs"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:scrollbars="vertical"
+                tools:listitem="@layout/recent_job_item_layout" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
