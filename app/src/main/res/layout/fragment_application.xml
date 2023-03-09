@@ -65,4 +65,11 @@
             android:paddingHorizontal="5dp"
             android:textSize="16sp"/>
     </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerViewApp"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/searchBar"
+        android:scrollbars="vertical"/>
 </RelativeLayout>

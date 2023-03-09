@@ -153,10 +153,12 @@
             android:orientation="horizontal"
             android:layout_below="@id/groupTxt_category"
             android:layout_marginVertical="16dp">
-            <TextView
+            <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Continue here..."/>
+                android:layout_height="52dp"
+                android:id="@+id/recyclerVieHome"
+                android:paddingBottom="10dp"
+                android:scrollbars="horizontal"/>
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>
