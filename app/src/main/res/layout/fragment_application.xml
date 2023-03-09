@@ -5,13 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment"
     android:padding="30dp">
-
     <RelativeLayout
         android:id="@+id/titleBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/btnApp"
             android:layout_width="52dp"
@@ -65,4 +63,13 @@
             android:paddingHorizontal="5dp"
             android:textSize="16sp"/>
     </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchBar"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/application_item_layout" />
 </RelativeLayout>

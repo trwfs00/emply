@@ -162,19 +162,16 @@
                 android:scrollbars="none"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:itemCount="5"
-                tools:listitem="@layout/item_category" />
-
+                tools:listitem="@layout/category_item_layout" />
+            <TextView
+                android:id="@+id/RececntJobs"
+                android:text="Recent Jobs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/font_dark"
+                android:layout_below="@id/recyclerCategory"/>
         </RelativeLayout>
     </RelativeLayout>
-
-    <TextView
-        android:id="@+id/RececntJobs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:text="Recent Jobs"
-        android:textColor="@color/font_dark"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        />
 </RelativeLayout>
