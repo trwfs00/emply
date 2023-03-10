@@ -99,17 +99,23 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/jobssalary"
                 android:orientation="horizontal">
-                <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="40dp"
-                    android:layout_height="20dp"
-                    android:layout_marginRight="1dp"
-                    android:backgroundcolor="#A1B3C2"/>
-                <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="40dp"
-                    android:layout_height="20dp"
-                    android:backgroundcolor="#A1B3C2"/>
-
-
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Tag1"
+                   android:background="@drawable/rounded_box"
+                   android:paddingHorizontal="11dp"
+                   android:textSize="10dp"
+                   android:layout_marginTop="7dp"
+                   android:layout_marginRight="5dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tags2"
+                    android:background="@drawable/rounded_box"
+                    android:paddingHorizontal="11dp"
+                    android:textSize="10dp"
+                    android:layout_marginTop="7dp"/>
             </LinearLayout>
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
