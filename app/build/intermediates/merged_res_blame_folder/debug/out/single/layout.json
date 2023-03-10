@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\application_item_layout.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\application_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\fragment_application.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\fragment_application.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\category_item_layout.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\category_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\recent_job_item_layout.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\recent_job_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_application.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_application.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.emply.app-mergeDebugResources-33:/layout/activity_home.xml",
+        "source": "com.example.emply.app-main-36:/layout/activity_home.xml"
+    }
+]
