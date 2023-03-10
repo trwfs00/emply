@@ -45,6 +45,9 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final RecyclerView recyclerCategory;
 
   @NonNull
+  public final RecyclerView recyclerViewApp;
+
+  @NonNull
   public final LinearLayout searchBar;
 
   @NonNull
@@ -60,8 +63,9 @@ public final class ActivityHomeBinding implements ViewBinding {
       @NonNull BottomNavigationView bottomNav, @NonNull AppCompatImageButton btnUser,
       @NonNull RelativeLayout category, @NonNull RelativeLayout groupTxtCategory,
       @NonNull RelativeLayout groupTxtTipsforyou, @NonNull RecyclerView recyclerCategory,
-      @NonNull LinearLayout searchBar, @NonNull RelativeLayout tipsforyou,
-      @NonNull TextView txtUsername, @NonNull RelativeLayout userBar) {
+      @NonNull RecyclerView recyclerViewApp, @NonNull LinearLayout searchBar,
+      @NonNull RelativeLayout tipsforyou, @NonNull TextView txtUsername,
+      @NonNull RelativeLayout userBar) {
     this.rootView = rootView;
     this.RececntJobs = RececntJobs;
     this.bottomNav = bottomNav;
@@ -70,6 +74,7 @@ public final class ActivityHomeBinding implements ViewBinding {
     this.groupTxtCategory = groupTxtCategory;
     this.groupTxtTipsforyou = groupTxtTipsforyou;
     this.recyclerCategory = recyclerCategory;
+    this.recyclerViewApp = recyclerViewApp;
     this.searchBar = searchBar;
     this.tipsforyou = tipsforyou;
     this.txtUsername = txtUsername;
@@ -145,6 +150,12 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recyclerViewApp;
+      RecyclerView recyclerViewApp = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewApp == null) {
+        break missingId;
+      }
+
       id = R.id.searchBar;
       LinearLayout searchBar = ViewBindings.findChildViewById(rootView, id);
       if (searchBar == null) {
@@ -170,8 +181,8 @@ public final class ActivityHomeBinding implements ViewBinding {
       }
 
       return new ActivityHomeBinding((RelativeLayout) rootView, RececntJobs, bottomNav, btnUser,
-          category, groupTxtCategory, groupTxtTipsforyou, recyclerCategory, searchBar, tipsforyou,
-          txtUsername, userBar);
+          category, groupTxtCategory, groupTxtTipsforyou, recyclerCategory, recyclerViewApp,
+          searchBar, tipsforyou, txtUsername, userBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
