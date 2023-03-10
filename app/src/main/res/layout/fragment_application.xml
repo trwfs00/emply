@@ -15,6 +15,7 @@
             android:layout_width="52dp"
             android:layout_height="52dp"
             android:background="#00FFFFFF"
+            android:contentDescription="Home"
             android:scaleType="fitStart"
             android:src="@drawable/emply_semi_icon"
             android:visibility="visible" />
@@ -27,15 +28,7 @@
             android:textStyle="bold"
             android:textColor="@color/font_dark"
             android:layout_toRightOf="@id/btnApp"/>
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:layout_width="46dp"
-            android:layout_height="46dp"
-            android:background="#00FFFFFF"
-            android:scaleType="fitStart"
-            android:src="@drawable/choice_icon"
-            android:visibility="visible"
-            android:padding="6dp"
-            android:layout_alignParentEnd="true"/>
+
     </RelativeLayout>
     <LinearLayout
         android:id="@+id/searchBar"
@@ -50,6 +43,7 @@
             android:layout_width="52dp"
             android:layout_height="52dp"
             android:background="#00FFFFFF"
+            android:contentDescription="Search"
             android:scaleType="centerCrop"
             android:src="@drawable/search_icon"/>
         <com.google.android.material.textfield.TextInputEditText
