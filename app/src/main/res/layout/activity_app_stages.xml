@@ -31,6 +31,8 @@
             android:textColor="@color/font_dark"
             android:layout_toRightOf="@id/btnArrowLeft"/>
     </RelativeLayout>
+
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/jobscardview"
         android:layout_width="match_parent"
@@ -48,11 +50,12 @@
             android:layout_centerHorizontal="true">
         <View
             android:id="@+id/jobview"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:background="@drawable/jobsview"/>
+
             <TextView
                 android:id="@+id/jobsname"
                 android:layout_width="wrap_content"
@@ -84,6 +87,7 @@
                 android:textColor="#55697A"
                 android:textSize="11sp"
                 android:layout_marginTop="25dp"/>
+
             <TextView
                 android:id="@+id/jobssalary"
                 android:layout_width="wrap_content"
@@ -100,25 +104,56 @@
                 android:layout_below="@id/jobssalary"
                 android:orientation="horizontal">
                <TextView
+                   android:id="@+id/jobstag1"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Tag1"
-                   android:background="@drawable/rounded_box"
+                   android:textColor="#A1B3C2"
+                   android:background="@drawable/tagshape"
                    android:paddingHorizontal="11dp"
                    android:textSize="10dp"
                    android:layout_marginTop="7dp"
                    android:layout_marginRight="5dp" />
                 <TextView
+                    android:id="@+id/jobstag2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tags2"
-                    android:background="@drawable/rounded_box"
+                    android:text="Tag2"
+                    android:textColor="#A1B3C2"
+                    android:background="@drawable/tagshape"
                     android:paddingHorizontal="11dp"
                     android:textSize="10dp"
                     android:layout_marginTop="7dp"/>
             </LinearLayout>
-        </RelativeLayout>
-    </com.google.android.material.card.MaterialCardView>
 
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:id="@+id/appStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Application Status"
+        android:layout_below="@id/jobscardview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+    <TextView
+        android:id="@+id/appShowStatus"
+        android:layout_width="200dp"
+        android:layout_height="26dp"
+        android:text="Application Status"
+        android:layout_below="@id/appStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:background="@drawable/application_showstatus"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        android:layout_below="@id/appShowStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
 
 </RelativeLayout>
