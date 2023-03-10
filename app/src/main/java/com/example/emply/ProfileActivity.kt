@@ -13,6 +13,8 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.bottomNav.selectedItemId = R.id.profile
+
         session = SessionManager(applicationContext)
         // Read data from the preferences
         val username: String? = session.pref.getString(SessionManager.KEY_USERNAME, null)

@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         session = SessionManager(applicationContext)
         if (session.isLoggedIn()) {
             var i: Intent = Intent(applicationContext, HomeActivity::class.java)

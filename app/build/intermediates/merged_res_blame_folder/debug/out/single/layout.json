@@ -16,10 +16,6 @@
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\fragment_application.xml"
     },
     {
-        "merged": "com.example.emply.app-mergeDebugResources-33:/layout/activity_main.xml",
-        "source": "com.example.emply.app-main-36:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_profile.xml",
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_profile.xml"
     },
@@ -50,5 +46,9 @@
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_sign_in.xml",
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.emply.app-mergeDebugResources-33:/layout/activity_home.xml",
+        "source": "com.example.emply.app-main-36:/layout/activity_home.xml"
     }
 ]

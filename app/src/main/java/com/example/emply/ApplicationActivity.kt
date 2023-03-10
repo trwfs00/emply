@@ -11,6 +11,7 @@ class ApplicationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityApplicationBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.bottomNav.selectedItemId = R.id.application
 
         binding.bottomNav.setOnItemSelectedListener {
             when (it.itemId) {

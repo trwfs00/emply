@@ -12,6 +12,8 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.bottomNav.selectedItemId = R.id.home
+
         session = SessionManager(applicationContext)
 // Read data from the preferences
         val username: String? = session.pref.getString(SessionManager.KEY_USERNAME, null)
