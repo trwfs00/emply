@@ -19,7 +19,7 @@
             android:contentDescription="Previous"
             android:background="#00FFFFFF"
             android:scaleType="fitStart"
-            android:src="@drawable/arrowLeft"
+            android:src="@drawable/leftarrow"
             android:visibility="visible" />
         <TextView
             android:layout_width="wrap_content"
