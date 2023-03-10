@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\backward_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_tipforyou_img_1.png.flat",
@@ -68,12 +68,24 @@
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "com.example.emply.app-merged_res-34:/layout_activity_register.xml.flat",
+        "source": "com.example.emply.app-main-36:/layout/activity_register.xml"
+    },
+    {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_register_as_jobseeker.png.flat",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\register_as_jobseeker.png"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_register_as_employer.png.flat",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\register_as_employer.png"
     },
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_light_profile_icon.xml.flat",
@@ -188,12 +200,12 @@
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_btn_radius_custom.xml.flat",
-        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\btn_radius_custom.xml"
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\layout_role_item_layout.xml.flat",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\role_item_layout.xml"
     },
     {
-        "merged": "com.example.emply.app-merged_res-34:/layout_activity_home.xml.flat",
-        "source": "com.example.emply.app-main-36:/layout/activity_home.xml"
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_btn_radius_custom.xml.flat",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\btn_radius_custom.xml"
     },
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\layout_activity_profile.xml.flat",
@@ -230,6 +242,10 @@
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_register.xml"
     },
     {
         "merged": "C:\\Users\\Rytho\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_baseline_email_24.xml.flat",

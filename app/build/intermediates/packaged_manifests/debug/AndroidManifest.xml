@@ -30,6 +30,12 @@
         android:theme="@style/Theme.Emply.NoActionBar"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.emply.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.emply.MovieAdapter"
+            android:exported="false" />
+        <activity
             android:name="com.example.emply.ProfileActivity"
             android:exported="false" />
         <activity

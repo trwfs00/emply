@@ -2825,6 +2825,8 @@ int drawable notification_tile_bg 0x7f0700e7
 int drawable notify_panel_notification_icon_bg 0x7f0700e8
 int drawable password_icon 0x7f0700e9
 int drawable profile_icon_selector 0x7f0700ea
+int drawable register_as_employer 0x7f0700f8
+int drawable register_as_jobseeker 0x7f0700f9
 int drawable rounded_box 0x7f0700eb
 int drawable rounded_category_box 0x7f0700ec
 int drawable rounded_logo_job_box 0x7f0700ed
@@ -2942,6 +2944,8 @@ int id bounceBoth 0x7f080064
 int id bounceEnd 0x7f080065
 int id bounceStart 0x7f080066
 int id btnApp 0x7f080067
+int id btnEmployer 0x7f080212
+int id btnJobseeker 0x7f080213
 int id btnLogin 0x7f080068
 int id btnLogout 0x7f080069
 int id btnUser 0x7f08006a
@@ -3210,6 +3214,7 @@ int id right 0x7f080170
 int id rightToLeft 0x7f080171
 int id right_icon 0x7f080172
 int id right_side 0x7f080173
+int id roleGroup 0x7f080214
 int id rounded 0x7f080174
 int id row_index_key 0x7f080175
 int id save_non_transition_alpha 0x7f080176
@@ -3339,9 +3344,13 @@ int id transition_transform 0x7f0801f1
 int id triangle 0x7f0801f2
 int id txtInc 0x7f0801f3
 int id txtName 0x7f0801f4
+int id txtPassword 0x7f080215
+int id txtRole 0x7f080216
 int id txtSelectRole 0x7f0801f5
+int id txtSignIn 0x7f080218
 int id txtSignUp 0x7f0801f6
 int id txtStatus 0x7f0801f7
+int id txtTitle 0x7f080217
 int id txtUsername 0x7f0801f8
 int id unchecked 0x7f0801f9
 int id uniform 0x7f0801fa
@@ -3478,6 +3487,7 @@ int layout activity_application 0x7f0b001c
 int layout activity_home 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_profile 0x7f0b001f
+int layout activity_register 0x7f0b006f
 int layout application_item_layout 0x7f0b0020
 int layout category_item_layout 0x7f0b0021
 int layout custom_dialog 0x7f0b0022
@@ -3553,6 +3563,7 @@ int layout notification_template_custom_big 0x7f0b0067
 int layout notification_template_icon_group 0x7f0b0068
 int layout notification_template_part_chronometer 0x7f0b0069
 int layout notification_template_part_time 0x7f0b006a
+int layout role_item_layout 0x7f0b0070
 int layout select_dialog_item_material 0x7f0b006b
 int layout select_dialog_multichoice_material 0x7f0b006c
 int layout select_dialog_singlechoice_material 0x7f0b006d

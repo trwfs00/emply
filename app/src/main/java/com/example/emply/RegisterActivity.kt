@@ -20,7 +20,7 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         bindingRegister.txtSignIn.setOnClickListener {
-            var i = Intent(applicationContext, MainActivity::class.java)
+            var i: Intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(i)
             finish()
         }
