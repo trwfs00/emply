@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity() {
             val username: String? = session.pref.getString(SessionManager.KEY_USERNAME, null)
             binding.edtUsername.setText(username)
         }
+        binding.txtSignUp.setOnClickListener {
+            var i = Intent(applicationContext, RegisterActivity::class.java)
+            startActivity(i)
+            finish()
+        }
+
         binding.btnLogin.setOnClickListener() {
             var username = binding.edtUsername.text.toString()
             var password = binding.edtPassword.text.toString()
