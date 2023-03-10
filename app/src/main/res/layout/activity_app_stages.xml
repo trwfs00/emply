@@ -12,13 +12,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btnArrowLeft"
+            android:id="@+id/btnEmplyicon"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
             android:background="#00FFFFFF"
             android:scaleType="fitStart"
-            android:src="@drawable/arrowLeft"
+            android:src="@drawable/emply_semi_icon"
             android:visibility="visible" />
         <TextView
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:textStyle="bold"
             android:layout_marginLeft="15dp"
             android:textColor="@color/font_dark"
-            android:layout_toRightOf="@id/btnArrowLeft"/>
+            android:layout_toRightOf="@id/btnEmplyicon"/>
     </RelativeLayout>
 
 
