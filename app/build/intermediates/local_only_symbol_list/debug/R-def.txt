@@ -55,7 +55,6 @@ id PasswordLayout
 id RececntJobs
 id UsernameLayout
 id about
-id about_us
 id account
 id application
 id bottom_nav
@@ -63,6 +62,10 @@ id btnApp
 id btnLogin
 id btnLogout
 id btnUser
+id btn_about_us
+id btn_personal_information
+id btn_privacy_policy
+id btn_term_service
 id category
 id cbRememberMe
 id edtPassword
@@ -82,13 +85,11 @@ id lineBold
 id lineNormal
 id lineNormal2
 id password_icon
-id personal_information
-id privacy_policy
 id profile
+id profile_activity
 id recyclerCategory
 id recyclerViewApp
 id searchBar
-id term_service
 id tipsforyou
 id title
 id titleBar

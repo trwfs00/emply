@@ -27,19 +27,28 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final TextView about;
 
   @NonNull
-  public final RelativeLayout aboutUs;
-
-  @NonNull
   public final TextView account;
 
   @NonNull
   public final BottomNavigationView bottomNav;
 
   @NonNull
+  public final RelativeLayout btnAboutUs;
+
+  @NonNull
   public final AppCompatImageButton btnApp;
 
   @NonNull
   public final AppCompatButton btnLogout;
+
+  @NonNull
+  public final RelativeLayout btnPersonalInformation;
+
+  @NonNull
+  public final RelativeLayout btnPrivacyPolicy;
+
+  @NonNull
+  public final RelativeLayout btnTermService;
 
   @NonNull
   public final AppCompatImageButton btnUser;
@@ -66,13 +75,7 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final View lineNormal2;
 
   @NonNull
-  public final RelativeLayout personalInformation;
-
-  @NonNull
-  public final RelativeLayout privacyPolicy;
-
-  @NonNull
-  public final RelativeLayout termService;
+  public final RelativeLayout profileActivity;
 
   @NonNull
   public final RelativeLayout titleBar;
@@ -84,22 +87,25 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final RelativeLayout userBar;
 
   private ActivityProfileBinding(@NonNull RelativeLayout rootView, @NonNull TextView about,
-      @NonNull RelativeLayout aboutUs, @NonNull TextView account,
-      @NonNull BottomNavigationView bottomNav, @NonNull AppCompatImageButton btnApp,
-      @NonNull AppCompatButton btnLogout, @NonNull AppCompatImageButton btnUser,
-      @NonNull ImageView iconAbout, @NonNull ImageView iconPersonal, @NonNull ImageView iconPrivacy,
-      @NonNull ImageView iconTos, @NonNull View lineBold, @NonNull View lineNormal,
-      @NonNull View lineNormal2, @NonNull RelativeLayout personalInformation,
-      @NonNull RelativeLayout privacyPolicy, @NonNull RelativeLayout termService,
-      @NonNull RelativeLayout titleBar, @NonNull TextView txtUsername,
-      @NonNull RelativeLayout userBar) {
+      @NonNull TextView account, @NonNull BottomNavigationView bottomNav,
+      @NonNull RelativeLayout btnAboutUs, @NonNull AppCompatImageButton btnApp,
+      @NonNull AppCompatButton btnLogout, @NonNull RelativeLayout btnPersonalInformation,
+      @NonNull RelativeLayout btnPrivacyPolicy, @NonNull RelativeLayout btnTermService,
+      @NonNull AppCompatImageButton btnUser, @NonNull ImageView iconAbout,
+      @NonNull ImageView iconPersonal, @NonNull ImageView iconPrivacy, @NonNull ImageView iconTos,
+      @NonNull View lineBold, @NonNull View lineNormal, @NonNull View lineNormal2,
+      @NonNull RelativeLayout profileActivity, @NonNull RelativeLayout titleBar,
+      @NonNull TextView txtUsername, @NonNull RelativeLayout userBar) {
     this.rootView = rootView;
     this.about = about;
-    this.aboutUs = aboutUs;
     this.account = account;
     this.bottomNav = bottomNav;
+    this.btnAboutUs = btnAboutUs;
     this.btnApp = btnApp;
     this.btnLogout = btnLogout;
+    this.btnPersonalInformation = btnPersonalInformation;
+    this.btnPrivacyPolicy = btnPrivacyPolicy;
+    this.btnTermService = btnTermService;
     this.btnUser = btnUser;
     this.iconAbout = iconAbout;
     this.iconPersonal = iconPersonal;
@@ -108,9 +114,7 @@ public final class ActivityProfileBinding implements ViewBinding {
     this.lineBold = lineBold;
     this.lineNormal = lineNormal;
     this.lineNormal2 = lineNormal2;
-    this.personalInformation = personalInformation;
-    this.privacyPolicy = privacyPolicy;
-    this.termService = termService;
+    this.profileActivity = profileActivity;
     this.titleBar = titleBar;
     this.txtUsername = txtUsername;
     this.userBar = userBar;
@@ -149,12 +153,6 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.about_us;
-      RelativeLayout aboutUs = ViewBindings.findChildViewById(rootView, id);
-      if (aboutUs == null) {
-        break missingId;
-      }
-
       id = R.id.account;
       TextView account = ViewBindings.findChildViewById(rootView, id);
       if (account == null) {
@@ -167,6 +165,12 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_about_us;
+      RelativeLayout btnAboutUs = ViewBindings.findChildViewById(rootView, id);
+      if (btnAboutUs == null) {
+        break missingId;
+      }
+
       id = R.id.btnApp;
       AppCompatImageButton btnApp = ViewBindings.findChildViewById(rootView, id);
       if (btnApp == null) {
@@ -176,6 +180,24 @@ public final class ActivityProfileBinding implements ViewBinding {
       id = R.id.btnLogout;
       AppCompatButton btnLogout = ViewBindings.findChildViewById(rootView, id);
       if (btnLogout == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_personal_information;
+      RelativeLayout btnPersonalInformation = ViewBindings.findChildViewById(rootView, id);
+      if (btnPersonalInformation == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_privacy_policy;
+      RelativeLayout btnPrivacyPolicy = ViewBindings.findChildViewById(rootView, id);
+      if (btnPrivacyPolicy == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_term_service;
+      RelativeLayout btnTermService = ViewBindings.findChildViewById(rootView, id);
+      if (btnTermService == null) {
         break missingId;
       }
 
@@ -227,21 +249,9 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.personal_information;
-      RelativeLayout personalInformation = ViewBindings.findChildViewById(rootView, id);
-      if (personalInformation == null) {
-        break missingId;
-      }
-
-      id = R.id.privacy_policy;
-      RelativeLayout privacyPolicy = ViewBindings.findChildViewById(rootView, id);
-      if (privacyPolicy == null) {
-        break missingId;
-      }
-
-      id = R.id.term_service;
-      RelativeLayout termService = ViewBindings.findChildViewById(rootView, id);
-      if (termService == null) {
+      id = R.id.profile_activity;
+      RelativeLayout profileActivity = ViewBindings.findChildViewById(rootView, id);
+      if (profileActivity == null) {
         break missingId;
       }
 
@@ -263,10 +273,10 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileBinding((RelativeLayout) rootView, about, aboutUs, account,
-          bottomNav, btnApp, btnLogout, btnUser, iconAbout, iconPersonal, iconPrivacy, iconTos,
-          lineBold, lineNormal, lineNormal2, personalInformation, privacyPolicy, termService,
-          titleBar, txtUsername, userBar);
+      return new ActivityProfileBinding((RelativeLayout) rootView, about, account, bottomNav,
+          btnAboutUs, btnApp, btnLogout, btnPersonalInformation, btnPrivacyPolicy, btnTermService,
+          btnUser, iconAbout, iconPersonal, iconPrivacy, iconTos, lineBold, lineNormal, lineNormal2,
+          profileActivity, titleBar, txtUsername, userBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
