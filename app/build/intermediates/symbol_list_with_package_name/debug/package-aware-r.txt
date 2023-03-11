@@ -2711,6 +2711,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable about_us
 drawable application_icon_selector
 drawable arrow_icon
 drawable avd_hide_password
@@ -2752,6 +2753,7 @@ drawable img_sign_in
 drawable light_application_icon
 drawable light_home_icon
 drawable light_profile_icon
+drawable location
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2825,6 +2827,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable password_icon
+drawable persional_information
+drawable privacy_policy
 drawable profile_icon_selector
 drawable rounded_box
 drawable rounded_category_box
@@ -2834,11 +2838,13 @@ drawable search_icon
 drawable solid_application_icon
 drawable solid_home_icon
 drawable solid_profile_icon
+drawable term_of_services
 drawable test_level_drawable
 drawable tipforyou_img_1
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user_icon
+drawable work
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2856,6 +2862,7 @@ id SYM
 id TOP_END
 id TOP_START
 id UsernameLayout
+id about
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2890,6 +2897,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id account
 id actionDown
 id actionDownUp
 id actionUp
@@ -2946,6 +2954,10 @@ id btnApp
 id btnLogin
 id btnLogout
 id btnUser
+id btn_about_us
+id btn_personal_information
+id btn_privacy_policy
+id btn_term_service
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3067,7 +3079,11 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id icon
+id icon_about
 id icon_group
+id icon_personal
+id icon_privacy
+id icon_tos
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3093,6 +3109,9 @@ id leftToRight
 id legacy
 id line1
 id line3
+id lineBold
+id lineNormal
+id lineNormal2
 id linear
 id listMode
 id list_item
@@ -3199,6 +3218,7 @@ id position
 id postLayout
 id pressed
 id profile
+id profile_activity
 id progress_circular
 id progress_horizontal
 id radio
@@ -3338,11 +3358,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtCountry
 id txtInc
 id txtName
 id txtSelectRole
 id txtSignUp
 id txtStatus
+id txtType
 id txtUsername
 id unchecked
 id uniform
@@ -3497,6 +3519,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout job_item_layout
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
