@@ -15,12 +15,12 @@ import java.lang.Object;
 
 public abstract class CategoryItemLayoutBinding extends ViewDataBinding {
   @NonNull
-  public final TextView title;
+  public final TextView titleCategory;
 
   protected CategoryItemLayoutBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView title) {
+      TextView titleCategory) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.title = title;
+    this.titleCategory = titleCategory;
   }
 
   @NonNull

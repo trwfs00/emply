@@ -2929,6 +2929,8 @@ int id animateToEnd 0x7f080051
 int id animateToStart 0x7f080052
 int id antiClockwise 0x7f080053
 int id anticipate 0x7f080054
+int id appShowStatus 0x7f080222
+int id appStatus 0x7f080223
 int id application 0x7f080055
 int id arc 0x7f080056
 int id asConfigured 0x7f080057
@@ -2950,6 +2952,7 @@ int id bounceBoth 0x7f080066
 int id bounceEnd 0x7f080067
 int id bounceStart 0x7f080068
 int id btnApp 0x7f080069
+int id btnBack 0x7f080224
 int id btnLogin 0x7f08006a
 int id btnLogout 0x7f08006b
 int id btnUser 0x7f08006c
@@ -3098,6 +3101,14 @@ int id invisible 0x7f0800fa
 int id inward 0x7f0800fb
 int id italic 0x7f0800fc
 int id item_touch_helper_previous_elevation 0x7f0800fd
+int id jobCardView 0x7f080225
+int id jobImage 0x7f080226
+int id jobInc 0x7f080227
+int id jobLocation 0x7f080228
+int id jobName 0x7f080229
+int id jobSalary 0x7f08022a
+int id jobType 0x7f08022b
+int id jobTypeTime 0x7f08022c
 int id jumpToEnd 0x7f0800fe
 int id jumpToStart 0x7f0800ff
 int id labeled 0x7f080100
@@ -3343,6 +3354,7 @@ int id time 0x7f0801ee
 int id tipsforyou 0x7f0801ef
 int id title 0x7f0801f0
 int id titleBar 0x7f0801f1
+int id titleCategory 0x7f08022d
 int id titleDividerNoCustom 0x7f0801f2
 int id title_template 0x7f0801f3
 int id toggle 0x7f0801f4
@@ -3497,6 +3509,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_application 0x7f0b001c
+int layout activity_application_stage 0x7f0b0070
 int layout activity_home 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_profile 0x7f0b001f

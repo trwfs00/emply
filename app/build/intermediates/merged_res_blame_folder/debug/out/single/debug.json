@@ -32,16 +32,24 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\password_icon.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_solid_profile_icon.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\solid_profile_icon.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.emply.app-merged_res-34:/layout_category_item_layout.xml.flat",
+        "source": "com.example.emply.app-main-36:/layout/category_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_profile_icon_selector.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\drawable\\profile_icon_selector.xml"
+    },
+    {
+        "merged": "com.example.emply.app-merged_res-34:/layout_activity_application_stage.xml.flat",
+        "source": "com.example.emply.app-main-36:/layout/activity_application_stage.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_rounded_logo_job_box.xml.flat",
@@ -182,10 +190,6 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\layout_application_item_layout.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\application_item_layout.xml"
-    },
-    {
-        "merged": "com.example.emply.app-merged_res-34:/layout_activity_profile.xml.flat",
-        "source": "com.example.emply.app-main-36:/layout/activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-merged_res-34:\\drawable_rounded_category_box.xml.flat",

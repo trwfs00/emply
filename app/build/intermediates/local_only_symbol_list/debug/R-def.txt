@@ -56,9 +56,12 @@ id RececntJobs
 id UsernameLayout
 id about
 id account
+id appShowStatus
+id appStatus
 id application
 id bottom_nav
 id btnApp
+id btnBack
 id btnLogin
 id btnLogout
 id btnUser
@@ -80,6 +83,14 @@ id icon_tos
 id imgBack
 id imgIcon
 id imgUser
+id jobCardView
+id jobImage
+id jobInc
+id jobLocation
+id jobName
+id jobSalary
+id jobType
+id jobTypeTime
 id layoutRememberme
 id lineBold
 id lineNormal
@@ -91,8 +102,8 @@ id recyclerCategory
 id recyclerViewApp
 id searchBar
 id tipsforyou
-id title
 id titleBar
+id titleCategory
 id txtCountry
 id txtInc
 id txtName
@@ -104,6 +115,7 @@ id txtUsername
 id userBar
 id user_icon
 layout activity_application
+layout activity_application_stage
 layout activity_home
 layout activity_main
 layout activity_profile

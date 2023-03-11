@@ -10,8 +10,8 @@
         android:orientation="horizontal"
         android:layout_below="@id/titleBar"
         android:layout_marginBottom="22dp">
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/imgUser"
+        <ImageView
+            android:id="@+id/imgJob"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="#00FFFFFF"
@@ -25,11 +25,11 @@
             android:orientation="vertical"
             android:layout_marginHorizontal="14dp"
             android:layout_marginVertical="4dp"
-            android:layout_toEndOf="@id/imgUser">
+            android:layout_toEndOf="@id/imgJob">
             <TextView
                 android:layout_width="272dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtName"
+                android:id="@+id/jobName"
                 android:text="Jobs"
                 android:textSize="20sp"
                 android:textColor="@color/font_dark"
@@ -37,7 +37,7 @@
             <TextView
                 android:layout_width="272dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtInc"
+                android:id="@+id/jobInc"
                 android:text="Companies"
                 android:textSize="12sp"
                 android:textColor="@color/font_grey"
@@ -46,15 +46,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtStatus"
+                android:id="@+id/jobStatus"
                 android:text="Status"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:layout_marginTop="6dp"
                 android:paddingHorizontal="16dp"
                 android:textStyle="normal"
                 android:background="@drawable/rounded_box"/>
         </LinearLayout>
-        <androidx.appcompat.widget.AppCompatImageButton
+        <ImageView
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:background="#00FFFFFF"
