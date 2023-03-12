@@ -14,7 +14,7 @@ public class CategoryItemLayoutBindingImpl extends CategoryItemLayoutBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.title, 1);
+        sViewsWithIds.put(R.id.titleCategory, 1);
     }
     // views
     @NonNull

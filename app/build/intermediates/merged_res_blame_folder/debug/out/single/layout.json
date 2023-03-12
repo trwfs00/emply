@@ -8,6 +8,10 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\job_item_layout.xml"
     },
     {
+        "merged": "com.example.emply.app-mergeDebugResources-33:/layout/category_item_layout.xml",
+        "source": "com.example.emply.app-main-36:/layout/category_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_application.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_application.xml"
     },
@@ -20,15 +24,15 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.emply.app-mergeDebugResources-33:/layout/activity_profile.xml",
-        "source": "com.example.emply.app-main-36:/layout/activity_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_profile.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-mergeDebugResources-33:\\layout\\activity_home.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.5\\com.example.emply.app-main-36:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.example.emply.app-mergeDebugResources-33:/layout/activity_application_stage.xml",
+        "source": "com.example.emply.app-main-36:/layout/activity_application_stage.xml"
     }
 ]
